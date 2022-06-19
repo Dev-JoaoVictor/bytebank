@@ -13,4 +13,4 @@ const gerenteEstaLogado = SistemaAutenticacao.login(gerente, "12345");
 const diretorEstaLogado = SistemaAutenticacao.login(diretor, "123456");
 const clienteEstalogado = SistemaAutenticacao.login(cliente, "123");
 
-console.log( clienteEstalogado, diretorEstaLogado, gerenteEstaLogado);
+console.log(gerenteEstaLogado, diretorEstaLogado, clienteEstalogado);
